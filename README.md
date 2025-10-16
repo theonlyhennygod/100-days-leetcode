@@ -18,20 +18,25 @@ By Day 100, you'll have:
 
 ## 🗓️ How It Works
 
-### 1. Fork or Clone the Repo
+**New here?** See the full setup guide in [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+### 1. Get Added as a Collaborator
+Ask a maintainer to add you with write access to the repository.
+
+### 2. Clone the Repo
 ```bash
 git clone https://github.com/theonlyhennygod/100-days-leetcode.git
 cd 100-days-leetcode
 ```
 
-### 2. Create Your Folder
+### 3. Create Your Folder
 Inside the `submissions/` directory, make a folder with your GitHub username:
 ```
 submissions/
 └── your-github-username/
 ```
 
-### 3. Add Your Daily Solution
+### 4. Add Your Daily Solution
 Each day you solve a LeetCode problem, add your code here:
 ```
 dayXX_problem-name.ext
@@ -42,11 +47,13 @@ dayXX_problem-name.ext
 - `day02_merge-intervals.java`
 - `day10_longest-substring.cpp`
 
-### 4. Commit and Push
+### 5. Commit and Push Daily
+**Important:** Always pull before pushing to avoid conflicts!
 ```bash
+git pull origin main
 git add submissions/your-github-username/dayXX_problem-name.ext
 git commit -m "Day XX: Solved <Problem Name>"
-git push
+git push origin main
 ```
 
 ---
