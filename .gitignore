@@ -1,0 +1,56 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Compiled Files
+*.class
+*.pyc
+*.pyo
+__pycache__/
+*.o
+*.exe
+*.out
+a.out
+
+# Language-specific
+# Python
+*.egg-info/
+dist/
+build/
+venv/
+env/
+
+# Java
+target/
+*.jar
+*.war
+
+# C/C++
+*.so
+*.dll
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# Personal notes (optional)
+notes/
+scratch/
