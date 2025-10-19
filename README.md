@@ -1,151 +1,73 @@
-# 💯 100 Days of LeetCode — Interview Prep Club
+# 💯 100 Days of LeetCode
 
-Welcome to the **Interview Prep Club's 100-Day LeetCode Challenge!**  
-Our mission: build unstoppable consistency and problem-solving skills by solving **1 LeetCode problem every day for 100 days**.  
-We'll track our progress publicly through GitHub commits to keep each other accountable.
-
----
-
-## 🧭 The Goal
-
-Solve **1 LeetCode problem every day** for **100 consecutive days**.  
-By Day 100, you'll have:
-- Sharpened your DSA fundamentals 🧠
-- Strengthened consistency and focus 🔥
-- Built a visible public record of growth on GitHub 📈
+Solve **1 LeetCode problem every day** for **100 days**.  
+Track progress. Build consistency. Get better.
 
 ---
 
-## 🗓️ How It Works
+<!-- LEADERBOARD:START -->
 
-**New here?** See the full setup guide in [CONTRIBUTING.md](./CONTRIBUTING.md)
+## 🏆 Leaderboard
 
-### 1. Get Added as a Collaborator
-Ask a maintainer to add you with write access to the repository.
+Track your progress and compete with fellow participants!
 
-### 2. Clone the Repo
-```bash
-git clone https://github.com/theonlyhennygod/100-days-leetcode.git
-cd 100-days-leetcode
-```
+**Column Guide:**
+- **Rank**: Your position on the leaderboard (🥇🥈🥉 for top 3!)
+- **Username**: Your GitHub username
+- **Total Problems**: Number of LeetCode problems solved
+- **Current Streak 🔥**: Consecutive days with submissions (as of today)
+- **Longest Streak 💪**: Your best streak of consecutive days
 
-### 3. Create Your Folder
-Inside the `submissions/` directory, make a folder with your GitHub username:
-```
-submissions/
-└── your-github-username/
-```
+| Rank | Username | Total Problems | Current Streak 🔥 | Longest Streak 💪 |
+|------|----------|----------------|-------------------|-------------------|
+| 🥇 | argenis | 0 | 0 | 0 |
 
-### 4. Add Your Daily Solution
-Each day you solve a LeetCode problem, add your code here:
-```
-dayXX_problem-name.ext
-```
+*Last updated: October 19, 2025 at 07:06 AM UTC*
 
-**Examples:**
-- `day01_two-sum.py`
-- `day02_merge-intervals.java`
-- `day10_longest-substring.cpp`
+<!-- LEADERBOARD:END -->
 
-### 5. Commit and Push Daily
-**Important:** Always pull before pushing to avoid conflicts!
+---
+
+## 🚀 Daily Workflow
+
+1. **Get the problem** (via WhatsApp)
+2. **Solve it** in your preferred language
+3. **Submit to your folder**: `submissions/<your-username>/dayXX_problem-name.ext`
+
 ```bash
 git pull origin main
-git add submissions/your-github-username/dayXX_problem-name.ext
-git commit -m "Day XX: Solved <Problem Name>"
+git add submissions/<your-username>/day01_two-sum.py
+git commit -m "Day 01: Solved Two Sum"
 git push origin main
 ```
 
----
-
-## 📜 Rules of the Challenge
-
-✅ **One problem per day** for 100 days (minimum).  
-🕐 **Commit daily** — consistency is key.  
-🧑‍💻 Use **any programming language** you like.  
-💬 (Optional) Add comments in your code to explain your thought process.  
-🚫 **No copy-paste solutions** — always write your own.  
-🔁 If you miss a day, you can catch up later — but try not to break your streak!  
-💡 **Celebrate small wins** and help others when you can!
+**File naming:** `dayXX_problem-name.ext` (e.g., `day01_two-sum.py`, `day15_merge-intervals.js`)
 
 ---
 
-## 📁 Folder Structure Example
+## 📁 Structure
 
 ```
-100-days-leetcode/
-├── README.md
-├── rules.md
-├── .gitignore
-└── submissions/
-    ├── alice/
-    │   ├── day01_two-sum.py
-    │   ├── day02_merge-intervals.java
-    │   └── ...
-    ├── bob/
-    │   ├── day01_two-sum.cpp
-    │   ├── day02_reverse-linked-list.py
-    │   └── ...
+submissions/
+├── argenis/
+│   ├── day01_two-sum.py
+│   └── day02_reverse-linked-list.py
+└── your-username/
+    └── day01_two-sum.js
 ```
 
 ---
 
-## 🚀 Commit Message Guidelines
+## 📜 Rules
 
-Use clear commit messages so progress is easy to track:
-- `Day 01: Solved Two Sum`
-- `Day 27: Solved Merge Intervals (Java)`
-- `Day 55: Solved LRU Cache — tricky one!`
-
----
-
-## 🌟 Progress Tracking
-
-Your GitHub commit graph will show your daily streak.  
-Optionally, maintain a mini progress log inside your folder:
-```
-submissions/yourname/README.md
-```
-
-**Example:**
-```markdown
-# My Progress Log
-
-| Day | Problem | Language | Notes |
-|-----|----------|-----------|-------|
-| 1 | Two Sum | Python | Used hash map for O(n) solution |
-| 2 | Merge Intervals | Java | Practiced sorting and interval merging |
-```
+- Solve 1 problem daily for 100 days
+- Commit to your own folder only
+- Use any language
+- Write your own solutions (no copy-paste)
 
 ---
 
-## 🧰 Optional Enhancements (Coming Soon)
-
-- ✅ GitHub Action to track daily commits.
-- 🧮 Streak badges for each participant.
-- 📊 Automated leaderboard generation.
-
----
-
-## 🙌 Community Guidelines
-
-- **Encourage each other** — we all start somewhere.
-- Be **respectful and constructive** when reviewing others' code.
-- Share learning tips, articles, or resources in discussions.
-- Remember: **discipline beats motivation**.
-
----
-
-## 🏁 Finish Line
-
-After 100 days, you'll have:
-- ✅ Solved **100+ problems**.
-- ✅ Built a **visible track record** of consistency.
-- ✅ **Improved significantly** in problem-solving and confidence.
-
----
-
-💬 _"You don't rise to the level of your goals, you fall to the level of your systems."_ — **James Clear**
+💬 _"You don't rise to the level of your goals, you fall to the level of your systems."_
 
 **Let's code. Every. Single. Day.** 🚀
 
@@ -154,7 +76,3 @@ After 100 days, you'll have:
 ## 🧑‍💻 Maintainers
 
 - [@theonlyhennygod](https://github.com/theonlyhennygod)
-
----
-
-**See [rules.md](./rules.md) for the full challenge guidelines.**

@@ -1,3 +1,14 @@
+# Kiro IDE Files
+.kiro/
+
+# Documentation (hidden)
+CONTRIBUTING.md
+rules.md
+
+# Development files
+scripts/
+.github/
+
 # Operating System Files
 .DS_Store
 .DS_Store?
