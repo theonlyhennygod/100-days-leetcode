@@ -67,6 +67,12 @@ submissions/
 
 ---
 
+## 🎖️ Become a Maintainer
+
+After **5 submissions**, you can become a maintainer and help manage the repo!
+
+---
+
 💬 _"You don't rise to the level of your goals, you fall to the level of your systems."_
 
 **Let's code. Every. Single. Day.** 🚀
